@@ -65,6 +65,7 @@ clear: right;
 background-color: #dddddd;
 display: inline-block;
 z-index: 3;
+float: left;
 width: 160px;
 }
 
@@ -141,7 +142,11 @@ table#layout {
 	table-layout: relative;
 	}
 	
-
+.colone {}
+.colone-inner {}
+.coltwo { }
+.colthree-inner {}
+.colthree {}
 
 /* ------------------------------------------------------------------
 ---------- HEADER ---------------------------------------------------
@@ -315,7 +320,8 @@ border-top: solid 0px #eee;
 padding-top: 00px;	}
 /*-------------------- POST HEADLINE ----------------------*/
 
-
+div.post-headline {
+		}
 
 div.post-headline h1,
 div.post-headline h2 {
@@ -333,6 +339,9 @@ div.post-headline h1 a:visited,
 div.post-headline h1 a:active {
 	font-size: 1.2em;	}
 
+div.post-headline h2 a:hover,
+div.post-headline h1 a:hover {
+		}
 
 </style>
 
@@ -438,7 +447,7 @@ window.onload = function(){
 		<!-- Header -->
 		<td id="header" colspan="3">
 
-		 <div id="imagecontainer" class="header-image-container" style="background: url('http://foddy.net/wp/wp-content/themes/atahualpa353/images/header/shade.png') top center no-repeat;"><div class="clickable"><a class="divclick" title="Foddy.net" href ="http://foddy.net/">&nbsp;</a></div><div class="titleoverlay"><h2 class="blogtitle"><a href="http://foddy.net/">Foddy.net</a></h2></div></div>
+		 <div id="imagecontainer" class="header-image-container" style="background: url('http://foddy.net/wp/wp-content/themes/atahualpa353/images/header/shade.png') top center no-repeat;"><div class="clickable"><a class="divclick" title="Foddy.net" href="https://foddy.net/">&nbsp;</a></div><div class="titleoverlay"><h2 class="blogtitle"><a href="https://foddy.net/">Foddy.net</a></h2></div></div>
 
 		</td>
 
@@ -489,7 +498,7 @@ window.onload = function(){
 		
 		<div id="gameContent" ></div>
 
-		<p>This page now supports mobile browsers - kind of!</br> Click <a href="http://foddy.net/Athletics.html?webgl=true">here</a> to force the HTML5 version to load. Or buy QWOP for  <a href="https://play.google.com/store/apps/details?id=com.noodlecake.QWOP">Android</a> or <a href="http://qwop.foddy.net">iOS</a>! !<br>Follow <a href="https://twitter.com/bfod">@bfod</a> on Twitter</p>
+		<p>This page now supports mobile browsers - kind of!</br> Click <a href="https://foddy.net/Athletics.html?webgl=true">here</a> to force the HTML5 version to load. Or buy QWOP for  <a href="https://play.google.com/store/apps/details?id=com.noodlecake.QWOP">Android</a> or <a href="http://qwop.foddy.net">iOS</a>! !<br>Follow <a href="https://twitter.com/bfod">@bfod</a> on Twitter</p>
 
 	</div>
 </div>
@@ -515,7 +524,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 <td id="footer" colspan="3">
 
     <p>
-    Copyright &copy; 2008-2015 <a href="http://foddy.net/">Foddy.net</a> - All Rights Reserved</p>
+    Copyright &copy; 2008-2015 <a href="https://foddy.net/">Foddy.net</a> - All Rights Reserved</p>
 </div>
 </table>
 </div><!-- / container -->
