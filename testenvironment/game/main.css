@@ -7,6 +7,38 @@
     Arial, sans-serif;
   font-weight: bold;
 }
+.container {
+  position: absolute;
+  top: 10;
+  left: 700;
+  width: 800px; /* Set your desired width */
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px; /* Adjust the gap as needed */
+  justify-content: space-between; /* Adjust alignment as needed */
+}
+
+
+.item {
+  width: 120px; /* 6 columns with a 10px gap */
+  height: 30px; /* Adjust the height as needed */
+  background-color: #3498db; /* Just for visualization */
+  margin-bottom: 10px;
+  font-size: small;
+}
+
+
+
+
+#tests {
+  position: absolute;
+  top: 430;
+  left: 200;
+  font-size: x-large;
+  font-family: "Lucida Console", "Courier New", monospace;
+  /* font-weight: bold; */
+}
 
 #actions {
   position: absolute;
@@ -16,3 +48,4 @@
   font-family: "Lucida Console", "Courier New", monospace;
   /* font-weight: bold; */
 }
+
